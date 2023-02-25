@@ -1,0 +1,55 @@
+.father{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  border: 2px solid black;
+  height: 40rem;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btns{
+  border: 1px solid black;
+  height: 3rem;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.nocont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 3rem;
+}
+
+.afterTap{
+  display: none;
+}
+
+.yes{
+  width: 4rem;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.BeforTap{
+  width: 5rem;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
